@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate
 import org.springframework.web.server.ResponseStatusException
 
 @Service
-class ProductAvailabalityService(val properties: ProductAvailabilityProperties) {
+class ProductAvailabilityService(val properties: ProductAvailabilityProperties) {
     val restTemplate = RestTemplate()
 
     fun isAvailable(articleId: String): String? {
