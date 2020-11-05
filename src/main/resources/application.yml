@@ -1,0 +1,3 @@
+api:
+  article_availabilty:
+    host: "http://example.org/api/article-availability"
